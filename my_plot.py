@@ -1,6 +1,9 @@
+"""
+prototype of live line chart made with matplotlib
+"""
 import time
-import requests
 import json
+import requests
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
