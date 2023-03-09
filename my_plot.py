@@ -27,5 +27,5 @@ def animate(i):
     ax1.set_ylabel('Bytes per second')
     ax1.set_title('eth0, eth1, and eth2 bytes per second over time')
 
-ani = animation.FuncAnimation(fig, animate, interval=2000)
+ani = animation.FuncAnimation(fig, animate, interval=5000)
 plt.show()
